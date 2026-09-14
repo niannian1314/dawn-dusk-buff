@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47.4.10,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="dawn_dusk_buff_mod_1788600495"
+version="1.0.0"
+displayName="终黎双生"
+authors="2046820954@qq.com"
+description='''
+新增「终之印记」与「黎之印记」两种互斥效果：
+终每级提供 10% 免伤（满 10 级完全免伤），
+黎每级增加 10% 承伤；
+同时持有两者时按等级差结算净效果。
+'''
+
+[[dependencies.dawn_dusk_buff_mod_1788600495]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4.10,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dawn_dusk_buff_mod_1788600495]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1, 1.21)"
+    ordering="NONE"
+    side="BOTH"
